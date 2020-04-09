@@ -1,5 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 
+body {
+  padding: 0;
+  margin: 0;
+}
 
 /* -----navbar----- */
 app-navbar {
@@ -26,9 +30,11 @@ app-navbar li {
 
 app-navbar li a{
   padding: 10px 12px;
-  
+  font-size: larger;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
   height: 55px;
-  width: 80px;
+  width: 100px;
   text-align: center;
   color: white;
   display: inline-block;
@@ -36,7 +42,7 @@ app-navbar li a{
 }
 
 app-navbar li a:hover {
-  background-color: #e3ba3f;
+  background-color: #e8e999;
   color: #034358;
 }
 

@@ -1,0 +1,38 @@
+.intro-section {
+    background-color: #ff9c77;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40%;
+    width: 100%;
+    
+    left:0;
+    right:0;
+    
+}
+
+
+.author-image img{
+  margin-top: 9px;
+    height:350px;
+    width: 400px;
+
+    -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.quote {
+  width: 45%;
+  color: white;
+  text-align: center;
+  font-size: larger;
+  font-weight: 700;
+  font-family: 'Merriweather', serif;
+}
+
+.blank {
+  width: 20%;
+}
